@@ -1,0 +1,98 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif    ;
+
+}
+
+.div1 {
+    background-color: rgb(32, 44, 51);
+    width: 40%;
+    height: 40px; position: sticky;
+    top: 0%;
+    color: white;
+}
+
+img {
+    border-radius: 50%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+#comunity {
+    width: 9%;
+    margin-left: 250px;
+}
+
+.main {
+    background-color: rgb(16, 26, 32);
+    height: 1500px;
+    overflow-y: scroll;
+    width: 40%;
+}
+
+.div2 {
+    width: 40%;
+    height: 40px;  
+}
+
+input {
+    background-color: rgb(32, 44, 51);
+    border: 1.5px solid white;
+    margin: 4%;
+    border-radius: 10px;
+    height: 30px;
+    width: 400px;
+    text-align: start;
+}
+
+.div3 {
+    margin-left: 8px;
+    margin-top: 5px;
+    border-top: 2px solid rgb(32, 44, 51);
+    width: 460px;
+    color: white;
+    display: flex;
+    align-items: center; 
+    height: 60px;
+
+}
+p{
+    margin-left: 20px;
+    font-size: 16px;
+    
+} body{
+    background-color: rgb(32, 44, 51);
+}
+.end{
+    float: right;margin-top: -1400px; 
+    color: white;
+    margin-right: 90px; position: fixed;
+    left: 600px;
+    
+    
+}
+#logo{
+    float: right;
+    height:250px;
+ margin-right: 60px;
+ 
+}
+#bu{ 
+    height: 40px;
+    border-radius: 30px;
+    width: 100px;font-weight: bold;
+    background-color: aqua; 
+    border: 0cap;
+
+}
+.div3:hover{
+    background-color: rgb(32, 44, 51);
+} a{
+    text-decoration: none;
+}
+@media all and (min-width:1000px) { .end{
+    width: 90px;
+}
+    
+}
